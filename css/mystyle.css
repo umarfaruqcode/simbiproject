@@ -1,0 +1,62 @@
+body {
+  font-family: "Overpass", Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+  body.menu-show {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%; 
+  }
+  h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  line-height: 1.4;
+  color: #000;
+  font-family: "Dosis", Arial, sans-serif;
+  font-weight: 400; }
+.sec1{
+   
+    background-color: white;
+}
+span{
+    font-size:20px;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+/*html,*/
+/*body {*/
+/*  height: 100%;*/
+/*}*/
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+a{
+    
+}
+
+/* Other Classes for Page Styling */
